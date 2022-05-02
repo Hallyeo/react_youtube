@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 0rem 2rem;
+  background: #FFF5F0;
+  margin-bottom: 1.5rem;
+}
+.logo {
+  height: 100%;
+}
+.input {
+  height: 60%;
+  flex-basis: 65%;
+  margin-left: 10%;
+  outline: 0;
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  border: 0.1rem solid darkgrey;
+}
+.input:focus {
+  border: 0.1rem solid #474547;
+}
+.button {
+  font-size: 1.6rem;
+  border: none;
+  background-color: transparent;
+  margin-left: -3rem;
+  cursor: pointer;
+  z-index: 10;
+}
+.button:hover {
+  color: #FF889D;
+}
